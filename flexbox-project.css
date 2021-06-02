@@ -15,6 +15,7 @@ body {
   Padding:	4px;
   color: white;
   display: flex;
+  justify-content: space-between;
 
 }
 
@@ -23,12 +24,6 @@ body {
   padding: 1em;
 }
 
-#plus {
-  margin: 0px;
-  padding: 1em;
-  align-self: end;
-  display: flex;
-}
 
 .header-nav__trello-logo {
   justify-content: center;
@@ -46,6 +41,9 @@ body {
 @media screen and (max-width: 730px) {
   /* Hide the header search input field. */
   /* Hide the "Boards" text, but leave the boards icon. */
+  #search, .boards-label {
+    display: none;
+  }
 }
 
 
