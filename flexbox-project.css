@@ -20,11 +20,33 @@ body {
 
 .header-nav__group  {
   display: flex;
-
   padding: 1em;
 }
 
+#plus {
+  margin: 0px;
+  padding: 1em;
+  align-self: end;
+  display: flex;
+}
 
+.header-nav__trello-logo {
+  justify-content: center;
+  display:flex;
+}
+
+ .header-nav__button {
+  background-color: #CF513D;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+@media screen and (max-width: 730px) {
+  /* Hide the header search input field. */
+  /* Hide the "Boards" text, but leave the boards icon. */
+}
 
 
 
